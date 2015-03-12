@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="SnoutPoint" company="SnoutPoint Networks" webLink="http://" view-date="2015-01-19" view-index="0" gantt-divider-location="464" resource-divider-location="300" version="2.7" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="SnoutPoint" company="SnoutPoint Networks" webLink="http://" view-date="2015-01-26" view-index="0" gantt-divider-location="464" resource-divider-location="300" version="2.7" locale="es">
     <description><![CDATA[Planeación de actividades de SnoutPoint teniendo en cuenta todas sus fases e iteraciones asociadas.]]></description>
-    <view zooming-state="default:6" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="54" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="20" order="1"/>
+        <field id="tpd4" name="Fecha de inicio" width="21" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="24" order="2"/>
         <option id="color.recent"><![CDATA[#ffcc00 #ff6600 #ff6600 #ff6600 #ff6600 #009900 #006600 #00cc00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="27" order="0"/>
-        <field id="1" name="Función" width="27" order="1"/>
-        <field id="tpc1" name="Función 2" width="44" order="2"/>
+        <field id="0" name="Nombre" width="33" order="0"/>
+        <field id="1" name="Función" width="33" order="1"/>
+        <field id="tpc1" name="Función 2" width="33" order="2"/>
     </view>
     <!-- -->
     <calendars>
@@ -36,8 +36,8 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="SnoutPoint Social" color="#00cc00" meeting="false" start="2015-01-26" duration="90" complete="0" priority="4" expand="true">
-            <task id="4" name="Primer Incremento" color="#ff6600" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2015-01-26" duration="39" complete="0" priority="4" expand="true">
-                <task id="13" name="SPMP" color="#ffcc00" meeting="false" start="2015-01-26" duration="33" complete="0" expand="true">
+            <task id="4" name="Primer Incremento" color="#ff6600" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2015-01-26" duration="34" complete="0" priority="4" expand="true">
+                <task id="13" name="SPMP" color="#ffcc00" meeting="false" start="2015-01-26" duration="33" complete="0" expand="false">
                     <task id="19" name="Vista General del Proyecto" meeting="false" start="2015-02-13" duration="19" complete="0" expand="true">
                         <task id="27" name="Visión del Producto" color="#8cb6ce" meeting="false" start="2015-02-13" duration="2" complete="0" expand="true">
                             <depend id="28" type="2" difference="0" hardness="Strong"/>
@@ -79,7 +79,7 @@
                 </task>
                 <task id="50" name="Definición del Proyecto" meeting="false" start="2015-02-02" duration="2" complete="0" expand="true"/>
                 <task id="51" name="Casos de Uso" meeting="false" start="2015-02-02" duration="1" complete="0" expand="true"/>
-                <task id="52" name="Retroalimentación y planeación del próximo incremento" meeting="false" start="2015-03-12" duration="6" complete="0" expand="true"/>
+                <task id="52" name="Retroalimentación y planeación del próximo incremento" meeting="false" start="2015-03-12" duration="1" complete="0" expand="true"/>
                 <task id="54" name="Reporte Gerencial" meeting="false" start="2015-02-02" duration="1" complete="0" expand="true"/>
             </task>
             <task id="5" name="Segundo Incremento" color="#ff6600" meeting="false" start="2015-03-12" duration="22" complete="0" expand="true"/>
@@ -121,9 +121,9 @@
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="244" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="93" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="108" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="249" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="98" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="113" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
