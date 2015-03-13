@@ -1,3 +1,23 @@
----------------------------------SNOUTPOINT-------------------------------------------------
+|------------------------------------SNOUTPOINT NETWORKS-------------------------------------------------|
+                __
+               /\/'-,
+       ,--'''''   /"
+ ____,'.  )       \___
+'"""""------'"""`-----'
 
-!!
+====I. Lista de Archivos y carpetas =====
+	°Leame.txt: Este documento
+
+	°La carpeta "Plantillas": contiene todas las plantillas que se utilizarán 
+         por SnoutPoint y que son referenciadas en el SPMP.
+
+	°La carpeta "Documentos": aquí encontrará todos los documentos de este entregable, 
+         incluyendo el Reporte Gerencial y el SPMP.
+
+Para acceder a estos documentos requiere al menos Microsoft Office 2010 en adelante.
+
+====      II.  Instalación	   =====
+	° Los archivos dentro de este CD no requieren algun proceso de instalación adicional. Disfrute.
+
+
+|---------------------------------------------------------------------------------------------------------|
