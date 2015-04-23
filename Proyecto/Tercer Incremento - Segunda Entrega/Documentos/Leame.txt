@@ -33,6 +33,9 @@
 	
 	°Reporte Gerencial: Documento de reporte para los clientes academicos para mostrar el estado de salud del proyecto
 	
+	°Lista de Riegos: Riesgos que han sido identificados y valorados durante todo el proceso de desarrollo, 
+	de manera acumulativa con los anteriores incrementos.
+	 
 	°SPMP: Plan de Administración de Proyecto de Software. Donde estan todas los planes, métricas,
 	       técnicas y estándares a cumplir en el desarrollo de software.
 

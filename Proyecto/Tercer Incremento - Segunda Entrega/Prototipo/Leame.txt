@@ -1,0 +1,33 @@
+|------------------------------------SNOUTPOINT NETWORKS-------------------------------------------------|
+                __
+               /\/'-,
+       ,--'''''   /"
+ ____,'.  )       \___
+'"""""------'"""`-----'
+
+====I. Lista de Archivos y carpetas =====
+	°Leame.txt: Este documento
+
+	°La carpeta "Web-Código Fuente": Tiene almancenados todos los archivos montados
+	 en Cloud9 para la ejecución del prototipo.
+
+	°Diagrama de Clase: Diagrama de clases del prototipo. Por el momento solo se tiene 
+	 una clase implementada dentro del sistema.
+	
+	°Modelo de Despliegue: Esquema de despliegue del prototipo, teniendo en cuenta los
+	 paquetes principales que hay (Vistas, Modelos y Controladores) y su relación con
+	 el usuario.
+	
+	°Manual de Administración: Guía para acceder a las opciones y detalles de caracter
+	 administrativo de SnoutPoint, según lo avanzado dentro del prototipo.
+
+	°Manual de Usuario: Guía para acceder y realizar las tareas y servicios ofrecidos
+	 por SnoutPoint, según con lo avanzado en el prototipo.
+
+Para acceder a estos documentos requiere al menos Microsoft Office 2010 en adelante.
+
+====      II.  Instalación	   =====
+	° Los archivos dentro de este CD no requieren algun proceso de instalación adicional. Disfrute.
+
+
+|---------------------------------------------------------------------------------------------------------|
