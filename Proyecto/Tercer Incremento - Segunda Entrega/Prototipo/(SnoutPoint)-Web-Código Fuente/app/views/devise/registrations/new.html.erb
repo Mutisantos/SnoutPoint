@@ -1,0 +1,50 @@
+<div id="contact" class="contact">
+	<div class="container">
+		<div class="contact-info">
+			<h3> CREAR CUENTA</h3>
+			<p>Al crear una cuenta en SNOUTPOINT aceptas nuestros <%= link_to "Términos y Condiciones", extra_pages_terminos_path %></p>
+	 	</div>
+		<div class="contact-details">		
+			<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+		  		<%= devise_error_messages! %>
+		  		
+		  		<%= f.text_field :nombre, autofocus: true, required: true, placeholder: "Nombre(s)" %>
+		    	<%= f.text_field :apellido, required: true, placeholder: "Apellido(s)" %>
+		   		<%= f.email_field :email, required: true, placeholder: "Correo electrónico"%>
+			    <%= f.password_field :password, required: true, autocomplete: "off", :placeholder => "Contraseña"%>
+			    <%= f.password_field :password_confirmation, required: true, autocomplete: "off", placeholder: "Confirmar contraseña" %>
+		    	<%= f.label :fechaNacimiento, "Fecha de Nacimiento" %>
+		    	<%= date_field("user", :fechaNacimiento, required: true, placeholder: "Fecha de nacimiento", min: Date.new(1970, 1, 1), max: Date.new(2002, 1, 1) )%>
+			    <%= f.file_field :image%>
+			    <% generos = { 'Hombre'=> 'M', 'Mujer'=> 'F'} %>
+			    <%= f.label :genero, "Género"%></br>
+			    <% generos.each do |gen| %>
+			    	
+			    	<label for = "<%= gen[1] %>"><%= gen[0]%></label>
+			    	<%= f.radio_button :genero, gen[1], required: true%>
+			    <% end %>
+		 	    <%= f.submit "CREAR" %>
+			<% end %>
+		<%= render "devise/shared/links" %>
+	 	</div>
+	</div>
+	
+	<div class="contact-bottom">
+		<div class="col-md-4 contact-grid">
+		  <%= link_to (image_tag "c1.png"), root_path %>
+			<h3>Community Manager: +57-312-587-3689</h3><br>
+		</div>
+		
+		<div class="col-md-4 contact-grid">
+			<%= link_to (image_tag "c2.png"), root_path %>
+			<h3><a href="mailto:info@example.com">softinge@gmail.com</a></h3>
+		</div>
+		
+		<div class="col-md-4 contact-grid">
+		  <%= link_to (image_tag "c3.png"), root_path %>
+			<h3>4116 Oak Avenue</h3>
+			<h3>Chicago, IL 60607</h3>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>

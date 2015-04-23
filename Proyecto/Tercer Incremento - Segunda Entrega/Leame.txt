@@ -12,7 +12,10 @@
          por SnoutPoint y que son referenciadas en el SPMP.
 
 	°La carpeta "Documentos": aquí encontrará todos los documentos de este entregable, 
-         incluyendo el Reporte Gerencial y el SPMP.
+         incluyendo el Reporte Gerencial, SPMP, Casos de Uso y SRS
+	
+	°La carpeta "Prototipo": Contiene los archivos y codigo fuente del prototipo, ademas del
+	 manual de usuario y manual de administración.
 
 Para acceder a estos documentos requiere al menos Microsoft Office 2010 en adelante.
 

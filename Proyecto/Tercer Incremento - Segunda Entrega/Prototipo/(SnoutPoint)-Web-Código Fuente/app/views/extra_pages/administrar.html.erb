@@ -1,0 +1,38 @@
+
+
+<h1>Lista de Usuarios</h1>
+
+
+<div class="table-responsive">
+  <table class="table">
+     <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+            <th>Fecha Nacimiento</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+          
+          <% @users = User.all %>
+            <% @users.each do |user| %>
+             <tr>
+            <td><%= user.id %></td>
+            <td><%= user.nombre %></td>
+            <td><%= user.apellido %></td>
+            <td><%= user.email %></td>
+            <td><%= user.fechaNacimiento %></td>
+            <td><%= link_to "ELIMINAR" , user_path(user.id) , :data => {:method => 'delete'} %> </td>
+            </tr>
+            <%end%>
+          
+        
+  </table>
+</div>
+
+
+

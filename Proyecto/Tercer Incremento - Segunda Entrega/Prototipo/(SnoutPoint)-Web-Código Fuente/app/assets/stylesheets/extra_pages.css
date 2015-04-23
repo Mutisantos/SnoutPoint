@@ -1,0 +1,48 @@
+body{
+    text-align:justify;
+}
+h1{
+    text-shadow:5px 5px 5px #cecece;
+    font-size: 350%;
+}
+h2{
+    font-size: 260%;
+    text-shadow:5px 5px 5px #cecece;
+}
+h3{
+    font-size: 205%;
+    text-shadow:5px 5px 5px #cecece;
+}
+p{
+    font-size: 150%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+ul li{
+    text-decoration: none;
+}
+ul li p{
+    font-size: 120%;
+}
+#in{
+    margin:80px;
+    border:1px solid white;
+}
+#HABEAS{
+    margin:30px;
+    font-weight:600;
+}
+#listabc{
+    margin:15px;
+    font-weight:600;
+}
+#TyC{
+    margin:60px;
+    width:90%;
+    height:90%;
+    padding-left:0px;
+    box-shadow: 0px 0px 10px black;
+}
+
