@@ -1,0 +1,52 @@
+|------------------------------------SNOUTPOINT NETWORKS-------------------------------------------------|
+                __
+               /\/'-,
+       ,--'''''   /"
+ ____,'.  )       \___
+'"""""------'"""`-----'
+
+====I. Lista de Archivos y carpetas =====
+	°Leame.txt: Este documento
+
+	°La carpeta "Actas de Reunión": Actas de reuniones realizadas por el grupo. 
+	
+	°La carpeta "Actas de Monitoreo de Desarrollo": Actas de Desarrollo de tareas de desarrollo durante el incremento
+	
+	°La carpeta "Actas de Monitoreo de Tiempos": Actas de fechas de desarrollo de tareas que determinan si se hicieron las tareas a tiempo o no
+	
+	°La carpeta "Actas de Reunión": Actas de reuniones realizadas por el grupo. 
+
+	°La carpeta "Análisis de Encuestas": Resultados de las encuestas
+
+	°La carpeta "Modelos y Esquemas": Modelos y Diseños relevantes para la comprensión del sistema
+	
+	°Asignación de Recursos y Tiempo: Esquema donde se dividen las actividades y se muestra
+	 estimaciones de duración, asignación en tiempo de calendario, recursos asignados y 
+	 costos asociados.
+
+	°Flujo de Caja: Flujo de caja del Proyecto SnoutPoint Social
+	
+	°Reporte de Estmacion de Puntos de Caso de Uso: Estimación de los puntos de caso de uso 
+	 para medir el tiempo aproximado que puede tardar el desarrollo del proyecto.
+	
+	°Casos de Uso: Documento que contiene todos los casos de uso dentro del alcance de SnoutPoint
+	
+	°Reporte Gerencial: Documento de reporte para los clientes academicos para mostrar el estado de salud del proyecto
+	
+	°Lista de Riegos: Riesgos que han sido identificados y valorados durante todo el proceso de desarrollo, 
+	de manera acumulativa con los anteriores incrementos.
+	 
+	°SPMP: Plan de Administración de Proyecto de Software. Donde estan todas los planes, métricas,
+	       técnicas y estándares a cumplir en el desarrollo de software.
+
+	°SRS: Descripción de la especificación de requerimientos de software.
+	
+	°SRS-Especificación de requerimientos de Software: Documento en excel que contiene los requerimientos específicos, su validación y trazabilidad
+
+Para acceder a estos documentos requiere al menos Microsoft Office 2010 en adelante.
+
+====      II.  Instalación	   =====
+	° Los archivos dentro de este CD no requieren algun proceso de instalación adicional. Disfrute.
+
+
+|---------------------------------------------------------------------------------------------------------|
