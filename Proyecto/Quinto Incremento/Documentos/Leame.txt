@@ -42,6 +42,11 @@
 	°SRS: Descripción de la especificación de requerimientos de software.
 	
 	°SRS-Especificación de requerimientos de Software: Documento en excel que contiene los requerimientos específicos, su validación y trazabilidad
+	
+	°SDD-Descripción de Diseño de Software: Documento donde se hace descripción del diseño de software del SnoutPoint 
+						refiriendose a la arquitectura del sistema y el diseño detallado del mismo.
+	
+
 
 Para acceder a estos documentos requiere al menos Microsoft Office 2010 en adelante.
 
